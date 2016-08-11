@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>基于jquery响应式网站图片无限加载瀑布流布局</title>
+    <link rel='stylesheet' href='styles/pic-style.css' media='screen' />
+    <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.lazyload.min.js"></script>    
+    <script type="text/javascript" src="scripts/blocksit.min.js"></script>
+
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<!--<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>-->
+<!-- FancyBox -->
+<script type="text/javascript" src="scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.2.js"></script>
+<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.2.setup.js"></script>
+<link rel="stylesheet" href="scripts/fancybox/jquery.fancybox-1.3.2.css" type="text/css" />
+<link href="styles/top.css" type="text/css" rel="stylesheet" /><!--backtop-->
+<script type="text/javascript" src="scripts/backtop.js"></script>	
+<script type="text/javascript" src="scripts/dtop.js"></script>
+</head>
+<body id="top">
+<div class="wrapper">
+  <div id="header">
+    <h1><a href="index.html">Realistic</a></h1>
+    <p>Ideas that help grow your business</p>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="topbar">
+    <div class="fl_left">QQ: 1042148608 | Mail: lmjustlm@163.com</div>
+    <div class="fl_right">
+      <form action="http://www.baidu.com/s?wd=" method="post">
+        <fieldset>
+          <legend>Search</legend>
+      <input type="text" value=""  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" >
+          <input type="submit" name="go" id="go" value="搜索" />
+        </fieldset>
+      </form>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="topnav">
+    <ul class="nav">
+      <li class="active"><a href="index.html">主页</a></li>
+      <li><a href="style-demo.html">IOT-物联网</a></li>
+      <li><a href="full-width.html">IOT-介绍</a></li>
+      <li><a href="#">校园生活</a>
+        <ul>
+          <li><a href="#">各种时间</a></li>
+          <li><a href="#">生活便利</a>
+            <ul>
+              <li><a href="#">寝室</a></li>
+              <li><a href="#">校外</a>
+                <ul>
+                  <li><a href="#">menu item</a></li>
+                  <li><a href="#">menu item</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">menu item</a>
+            <ul>
+              <li><a href="#">menu item</a></li>
+              <li><a href="#">menu item</a></li>
+            </ul>
+          </li>
+          <li><a href="#">menu item</a></li>
+        </ul>
+      </li>
+      <li><a href="portfolio.html">学校介绍</a></li>
+      <li class="last"><a href="pic_show.html">学校图集合</a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<!--<div class="wrapper">
+  <div id="breadcrumb">
+    <ul>
+      <li class="first">You Are Here</li>
+      <li>&#187;</li>
+      <li><a href="#">Home</a></li>
+      <li>&#187;</li>
+      <li><a href="#">Grand Parent</a></li>
+      <li>&#187;</li>
+      <li><a href="#">Parent</a></li>
+      <li>&#187;</li>
+      <li class="current"><a href="#">Child</a></li>
+    </ul>
+  </div>
+</div>-->
+<div class="wrapper">
+  <div class="container">
+    <!-- ############################# -->
+    <div id="gallery" class="whitebox">
+    <div id="wrapper">
+        <div id="pic_container">
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/1.jpg" margin:0 auto; /></div>
+                <strong>美女1</strong>
+                <p>
+                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/2.jpg" margin:0 auto; /></div>
+                <strong>美女2</strong>
+                <p>
+                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/3.jpg" margin:0 auto; /></div>
+                <strong>美女3</strong>
+                <p>
+                    jquery响应式网站图片无限加载瀑布流布局</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/4.jpg" margin:0 auto; /></div>
+                <strong>美女4</strong>
+                <p>
+                    jQuery之家 http://www.w2bc.com/ 提供各种jQuery插件，html5和css3效果。</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/5.jpg" margin:0 auto; /></div>
+                <strong>美女5</strong>
+                <p>
+                    jQuery之家致力于搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/6.jpg" margin:0 auto; /></div>
+                <strong>美女6</strong>
+                <p>
+                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/7.jpg" margin:0 auto; /></div>
+                <strong>美女7</strong>
+                <p>
+                    jQuery之家致力于搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/8.jpg" margin:0 auto; /></div>
+                <strong>美女4</strong>
+                <p>
+                    jQuery之家 http://www.w2bc.com/ 提供各种jQuery插件，html5和css3效果。</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/9.jpg" margin:0 auto; /></div>
+                <strong>美女8</strong>
+                <p>
+                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/10.jpg" margin:0 auto; /></div>
+                <strong>美女9</strong>
+                <p>
+                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+            <div class="grid">
+                <div class="imgholder">
+                    <img class="lazy" src="images/pixel.gif" data-original="images/11.jpg" margin:0 auto; /></div>
+                <strong>美女10</strong>
+                <p>
+                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
+                <div class="meta">
+                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+            </div>
+        </div>
+    </div>
+   </div>
+  </div>
+</div>
+    <div id="test" style="display: none;">
+        <div class="grid">
+            <div class="imgholder">
+                <img class="lazy" src="images/pixel.gif" data-original="images/1.jpg" margin:0 auto; /></div>
+            <strong>美女1</strong>
+            <p>
+                Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
+            <div class="meta">
+                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+        </div>
+        <div class="grid">
+            <div class="imgholder">
+                <img class="lazy" src="images/pixel.gif" data-original="images/2.jpg" margin:0 auto; /></div>
+            <strong>美女2</strong>
+            <p>
+                Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
+            <div class="meta">
+                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+        </div>
+        <div class="grid">
+            <div class="imgholder">
+                <img class="lazy" src="images/pixel.gif" data-original="images/3.jpg" margin:0 auto; /></div>
+            <strong>美女3</strong>
+            <p>
+                jquery响应式网站图片无限加载瀑布流布局</p>
+            <div class="meta">
+                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+        </div>
+        <div class="grid">
+            <div class="imgholder">
+                <img class="lazy" src="images/pixel.gif" data-original="images/4.jpg" margin:0 auto; /></div>
+            <strong>美女4</strong>
+            <p>
+                jQuery之家 http://www.w2bc.com/ 提供各种jQuery插件，html5和css3效果。</p>
+            <div class="meta">
+                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+        </div>
+        <div class="grid">
+            <div class="imgholder">
+                <img class="lazy" src="images/pixel.gif" data-original="images/5.jpg" margin:0 auto; /></div>
+            <strong>美女5</strong>
+            <p>
+                jQuery之家致力于搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。</p>
+            <div class="meta">
+                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+        </div>
+        <div class="grid">
+            <div class="imgholder">
+                <img class="lazy" src="images/pixel.gif" data-original="images/6.jpg" margin:0 auto; /></div>
+            <strong>美女6</strong>
+            <p>
+                Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
+            <div class="meta">
+                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
+        </div>
+    </div>
+<a href="#" onclick="gotoTop();return false;" class="totop"></a>
+    <script type="text/javascript" src="scripts/picwater.js"></script>
+</body>
+</html>
