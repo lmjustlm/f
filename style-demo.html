@@ -137,8 +137,9 @@
           </tbody>
         </table>
         <div id="comments">
-          <h2>Comments</h2>
-          <ul class="commentlist">
+          <!--<h2>评论区</h2>
+          	
+					<!--<ul class="commentlist">
             <li class="comment_odd">
               <div class="author"><img class="lazy" class="avatar" src="images/demo/avatar.gif" width="32" height="32" alt="" /><span class="name"><a href="#">A Name</a></span> <span class="wrote">wrote:</span></div>
               <div class="submitdate"><a href="#">August 4, 2009 at 8:35 am</a></div>
@@ -154,11 +155,11 @@
               <div class="submitdate"><a href="#">August 4, 2009 at 8:35 am</a></div>
               <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
             </li>
-          </ul>
+          </ul>-->
         </div>
         <h2>Write A Comment</h2>
         <div id="respond">
-          <form action="#" method="post">
+          <!--<form action="#" method="post">
             <p>
               <input type="text" name="name" id="name" value="" size="22" />
               <label for="name"><small>Name (required)</small></label>
@@ -176,7 +177,9 @@
               &nbsp;
               <input name="reset" type="reset" id="reset" tabindex="5" value="Reset Form" />
             </p>
-          </form>
+          </form>--><!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="1" data-title="评论" data-url="哈哈"></div>
+<!-- 评论框 end -->
         </div>
       </div>
       <div class="column">
@@ -291,6 +294,8 @@ jQuery(function () {
 </script>
 <script type="text/javascript" src="scripts/jquery.lazyload.min.js"></script><!--  ==============  -->
 <!--  = #lazy load =  -->
+<script type="text/javascript" src="scripts/dscomment.js" ></script>
+	
 <!--  ==============  -->
 <script type="text/javascript" charset="utf-8">
   $(function() {
