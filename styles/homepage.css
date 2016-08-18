@@ -54,10 +54,11 @@ Licence: <a href="#">Website Template Licence</a>
 
 #hpage_latest{
 	position:relative;
-	margin:0 auto 0;
+	margin:20px auto 0;
 	display:block;
 	width:960px;
 	padding:30px 0 0 0;
+	background-color: #E0E0E0;
 	}
 	
 #hpage_latest img{display:inline;}
@@ -90,7 +91,7 @@ Licence: <a href="#">Website Template Licence</a>
 	
 #hpage_latest p{
 	margin:0;
-	padding:0 20px;
+	padding:20px;
 	}
 
 #hpage_latest p strong{

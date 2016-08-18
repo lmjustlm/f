@@ -9,9 +9,8 @@ Licence: <a href="#">Website Template Licence</a>
 .portfolio{
 	position:relative;
 	display:block;
-	margin:0 auto 1px;
 	padding:10px 0;
-	width:100%;
+	width:600px;
 	border-top:1px solid #999999;
 	border-bottom:1px solid #999999;
 	}
@@ -23,22 +22,44 @@ Licence: <a href="#">Website Template Licence</a>
 
 .portfolio .fl_left{
 	display:block;
-	float:left;
-	width:350px;
-	margin:50px 0 0 0;
+	float:right;
+	width:360px;
+	margin:50px 0 0 0;/*左边文字的高低*/
 	line-height:1.6em;
 	}
 
 .portfolio .fl_right{
 	display:block;
-	float:right;
-	width:500px;
+	float:left;
+	width:auto;
 	}
 
 .portfolio .fl_right img{
 	display:block;
-	width:470px;
+	width:auto;
 	height:auto;
 	padding:5px;
-	border:10px solid #E0E0E0;
+	border:10px solid #519e80;
 	}
+.side-list-pro{ /*右边列表图片位置*/
+	display: block;
+	float: right;
+	width: 231px;
+}
+.side-list-li{
+	display: block;
+	width: 100%;
+	height: 80px;
+	padding: 7px;
+}
+.side-list-icon{
+	display: block;
+	float: left;
+	padding: 1px;
+	border:4px solid #65a98f;
+}
+.side-list-reduce{
+	display: block;
+	float: right;
+	width: 150px;
+}

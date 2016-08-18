@@ -19,8 +19,8 @@ input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", 
 	margin:0 5px 0 0;
 	padding:5px;
 	color:#565656;
-	background-color:#EBEBEB;
-	border:1px solid #C3C3C3;
+	background-color:#FFFFFF;
+	border:1px solid #35BFFF;
 	font-size:12px;
 	}
 
@@ -32,7 +32,7 @@ input, textarea, select{font-size:12px; font-family:Georgia, "Times New Roman", 
 	text-transform:uppercase;
 	color:#FFFFFF;
 	background-color:#565656;
-	border-color:#C3C3C3;
+	border-color:#3366CC;
 	cursor:pointer;
 	font-weight:bold;
 	}

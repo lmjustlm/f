@@ -1,21 +1,11 @@
-/*
-Template Name: Realistic
-File: Navigation CSS
-Author: OS Templates
-Author URI: #
-Licence: <a href="#">Website Template Licence</a>
-*/
 
 #topnav{
 	z-index:1000;
-	font-size:14px;
+	font-size:17px;
 	text-align:center;
 	text-transform:uppercase;
-	border-top:1px solid #999999;
-	border-bottom:1px solid #999999;
 	}
 
-/* ESSENTIAL STYLES */
 .nav, .nav *{
 	margin:0;
 	padding:0;
@@ -74,9 +64,9 @@ ul.nav li li li:hover ul, ul.nav li li li.sfHover ul{
 	
 /* Default Colours */
 .nav a{
-	padding:.75em 1em;
+	padding:.75em 1.5em;
 	text-decoration:none;
-	background-color:#E0E0E0;
+	background-color:;
 	}
 
 .nav li.active a{
@@ -88,24 +78,40 @@ ul.nav li li li:hover ul, ul.nav li li li.sfHover ul{
 	}
 	
 .nav li{
-	background:#E0E0E0;
+  position: relative;
+  background-color: #2ecc71;
+  font-family: "宋体";
+  font-weight: 300px;
+  color: #FFFFFF;
+   -moz-border-radius: 55px;      /* Gecko browsers */
+   -webkit-border-radius: 55px;   /* Webkit browsers */
+   border-radius:55px;            /* W3C syntax */
+
+	/*text-shadow: 0px -2px #2980B9;*/
 	}
 	
 .nav li li{
-	background:#E0E0E0;
+	background-color: #3498DB;
+	border: 2px solid #2980B9;
+	width: 100%;
 	}
 	
 .nav li li li{
-	background:#E0E0E0;
+background-color: #2ecc71;
+  color: #ecf0f1;
 	}
 	
 .nav li:hover, .nav li.sfHover, .nav a:focus, .nav a:hover, .nav a:active{
-	background:#C0C0C0;
+	 background:#fff;
+     color: #009688;
+	 -moz-border-radius: 15px;      /* Gecko browsers */
+     -webkit-border-radius: 15px;   /* Webkit browsers */
+     border-radius:15px;            /* W3C syntax */
 	}
 	
 /*** arrows **/
 .nav a.sf-with-ul{
-	padding-right:2.25em;
+	/*padding-right:2.25em;不需要设置大小 keep font stay weight*/ 
 }
 .nav li ul a.sf-with-ul{
 	padding-right:1em;
