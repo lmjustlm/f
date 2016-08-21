@@ -18,7 +18,7 @@
   color: #333;
   cursor: pointer;
   transition: background 0.1s, color 0.1s;
-  
+  margin: 3px;
   &:hover {
     background-color: #ddd;
     color: #3366cc;
