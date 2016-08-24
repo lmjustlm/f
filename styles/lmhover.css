@@ -145,7 +145,7 @@
   transition: all 0.35s ease-in-out 0.35s;
 }
 .ih-item.square4.effect4 .info p {
-  font-style: italic;
+  font-style: normal;
   font-size: 12px;
   position: relative;
   color: #bbb;
@@ -241,6 +241,19 @@
   color: #bbb;
   padding: 20px 20px 20px;
   text-align: center;
+}
+.ih-item.square.effect14 .info h4{
+	 display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: blue;
+  color: #fff;
+  font-family: Raleway, serif;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #fff
+}
+.ih-item.square.effect14 .info h4:hover {
+  box-shadow: 0 0 5px #fff
 }
 .ih-item.square.effect14 a:hover .img {
   opacity: 0;

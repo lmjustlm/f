@@ -1,267 +1,606 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>secret</title>
-    <link rel='stylesheet' href='styles/pic-style.css' media='screen' />
-    <script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.lazyload.min.js"></script>    
-    <script type="text/javascript" src="scripts/blocksit.min.js"></script>
 
-<link rel="stylesheet" href="styles/layout.css" type="text/css" />
-<!-- FancyBox -->
-<script type="text/javascript" src="scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.2.js"></script>
-<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.2.setup.js"></script>
-<link rel="stylesheet" href="scripts/fancybox/jquery.fancybox-1.3.2.css" type="text/css" />
-<link href="styles/top.css" type="text/css" rel="stylesheet" /><!--backtop-->
-<script type="text/javascript" src="scripts/backtop.js"></script>	
-<script type="text/javascript" src="scripts/dtop.js"></script>
-<link rel="icon" href="images/secret2.ico"  type="image/x-icon"/>
-<link  REL="SHORTCUT ICON" HREF="images/secret2.ico" type="image/x-icon" />
-</head>
-<body id="top">
-<div class="wrapper">
-  <div id="header">
-    <h1><a href="index.html">图片</a></h1>
-    <p>展示一些有关校园的图片</p>
-  </div>
-</div>
-<!-- ####################################################################################################### -->
-<div class="wrapper">
-  <div id="topbar">
-    <div class="fl_left">QQ: 1042148608 | Mail: lmjustlm@163.com</div>
-    <div class="fl_right">
-      <form action="http://www.baidu.com/s?wd=" method="post">
-        <fieldset>
-          <legend>Search</legend>
-      <input type="text" value=""  onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" >
-          <input type="submit" name="go" id="go" value="搜索" />
-        </fieldset>
-      </form>
-    </div>
-    <br class="clear" />
-  </div>
-</div>
-<!-- ####################################################################################################### -->
-<div class="wrapper">
-  <div id="topnav">
-    <ul class="nav">
-      <li class="active"><a href="index.html">主页</a></li>
-      <li><a href="style-demo.html">IOT-物联网</a></li>
-      <li><a href="full-width.html">IOT-介绍</a></li>
-      <li><a href="#">校园生活</a>
-        <ul>
-          <li><a href="time.html">各种时间</a></li>
-          <li><a href="#">生活便利</a>
-            <ul>
-              <li><a href="#">寝室</a></li>
-              <li><a href="#">校外</a>
-                <ul>
-                  <li><a href="#">menu item</a></li>
-                  <li><a href="#">menu item</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="#">menu item</a>
-            <ul>
-              <li><a href="#">menu item</a></li>
-              <li><a href="#">menu item</a></li>
-            </ul>
-          </li>
-          <li><a href="#">menu item</a></li>
-        </ul>
-      </li>
-      <li><a href="portfolio.html">学校介绍</a></li>
-      <li class="last"><a href="pic_show.html">学校图集合</a></li>
-    </ul>
-    <div class="clear"></div>
-  </div>
-</div>
-<!-- ####################################################################################################### -->
-<!--<div class="wrapper">
-  <div id="breadcrumb">
-    <ul>
-      <li class="first">You Are Here</li>
-      <li>&#187;</li>
-      <li><a href="#">Home</a></li>
-      <li>&#187;</li>
-      <li><a href="#">Grand Parent</a></li>
-      <li>&#187;</li>
-      <li><a href="#">Parent</a></li>
-      <li>&#187;</li>
-      <li class="current"><a href="#">Child</a></li>
-    </ul>
-  </div>
-</div>-->
-<div class="wrapper">
-  <div class="container">
-    <!-- ############################# -->
-    <div id="gallery" class="whitebox">
-    <div id="wrapper">
-        <div id="pic_container">
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/1.jpg" margin:0 auto; /></div>
-                <strong>美女1</strong>
-                <p>
-                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/2.jpg" margin:0 auto; /></div>
-                <strong>美女2</strong>
-                <p>
-                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/3.jpg" margin:0 auto; /></div>
-                <strong>美女3</strong>
-                <p>
-                    jquery响应式网站图片无限加载瀑布流布局</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/4.jpg" margin:0 auto; /></div>
-                <strong>美女4</strong>
-                <p>
-                    jQuery之家 http://www.w2bc.com/ 提供各种jQuery插件，html5和css3效果。</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/5.jpg" margin:0 auto; /></div>
-                <strong>美女5</strong>
-                <p>
-                    jQuery之家致力于搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/6.jpg" margin:0 auto; /></div>
-                <strong>美女6</strong>
-                <p>
-                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/7.jpg" margin:0 auto; /></div>
-                <strong>美女7</strong>
-                <p>
-                    jQuery之家致力于搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/8.jpg" margin:0 auto; /></div>
-                <strong>美女4</strong>
-                <p>
-                    jQuery之家 http://www.w2bc.com/ 提供各种jQuery插件，html5和css3效果。</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/9.jpg" margin:0 auto; /></div>
-                <strong>美女8</strong>
-                <p>
-                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/10.jpg" margin:0 auto; /></div>
-                <strong>美女9</strong>
-                <p>
-                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-            <div class="grid">
-                <div class="imgholder">
-                    <img class="lazy" src="images/pixel.gif" data-original="images/11.jpg" margin:0 auto; /></div>
-                <strong>美女10</strong>
-                <p>
-                    Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
-                <div class="meta">
-                    <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-            </div>
-        </div>
-    </div>
-   </div>
-  </div>
-</div>
-    <div id="test" style="display: none;">
-        <div class="grid">
-            <div class="imgholder">
-                <img class="lazy" src="images/pixel.gif" data-original="images/1.jpg" margin:0 auto; /></div>
-            <strong>美女1</strong>
-            <p>
-                Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局 点击查看》》》</p>
-            <div class="meta">
-                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-        </div>
-        <div class="grid">
-            <div class="imgholder">
-                <img class="lazy" src="images/pixel.gif" data-original="images/2.jpg" margin:0 auto; /></div>
-            <strong>美女2</strong>
-            <p>
-                Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
-            <div class="meta">
-                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-        </div>
-        <div class="grid">
-            <div class="imgholder">
-                <img class="lazy" src="images/pixel.gif" data-original="images/3.jpg" margin:0 auto; /></div>
-            <strong>美女3</strong>
-            <p>
-                jquery响应式网站图片无限加载瀑布流布局</p>
-            <div class="meta">
-                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-        </div>
-        <div class="grid">
-            <div class="imgholder">
-                <img class="lazy" src="images/pixel.gif" data-original="images/4.jpg" margin:0 auto; /></div>
-            <strong>美女4</strong>
-            <p>
-                jQuery之家 http://www.w2bc.com/ 提供各种jQuery插件，html5和css3效果。</p>
-            <div class="meta">
-                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-        </div>
-        <div class="grid">
-            <div class="imgholder">
-                <img class="lazy" src="images/pixel.gif" data-original="images/5.jpg" margin:0 auto; /></div>
-            <strong>美女5</strong>
-            <p>
-                jQuery之家致力于搜集和整理各种jQuery插件，jQuery特效，jquery ui，jQuery 教程，JS特效，网页特效，以及各种html5，css3动画和效果，为前端开发者提供最全面的网页开发素材。</p>
-            <div class="meta">
-                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-        </div>
-        <div class="grid">
-            <div class="imgholder">
-                <img class="lazy" src="images/pixel.gif" data-original="images/6.jpg" margin:0 auto; /></div>
-            <strong>美女6</strong>
-            <p>
-                Jquery瀑布流插件实现的jquery响应式网站图片无限加载瀑布流布局，更多插件请访问jQuery之家 http://www.w2bc.com/</p>
-            <div class="meta">
-                <a href="http://www.w2bc.com/" target="_blank">点击查看>>></a></div>
-        </div>
-    </div>
-<a href="#" onclick="gotoTop();return false;" class="totop"></a>
-    <script type="text/javascript" src="scripts/picwater.js"></script>
-</body>
+	<head>
+		<title>secret</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>secret</title>
+		<link rel='stylesheet' href='styles/pic-style.css' media='screen' />
+		<script type="text/javascript" src="scripts/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.lazyload.min.js"></script>
+		<script type="text/javascript" src="scripts/blocksit.min.js"></script>
+
+		<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+		<!-- FancyBox -->
+		<script type="text/javascript" src="scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+		<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.2.js"></script>
+		<script type="text/javascript" src="scripts/fancybox/jquery.fancybox-1.3.2.setup.js"></script>
+		<link rel="stylesheet" href="scripts/fancybox/jquery.fancybox-1.3.2.css" type="text/css" />
+		<link href="styles/top.css" type="text/css" rel="stylesheet" />
+		<!--backtop-->
+		<script type="text/javascript" src="scripts/backtop.js"></script>
+		<script type="text/javascript" src="scripts/dtop.js"></script>
+		<link rel="icon" href="images/secret2.ico" type="image/x-icon" />
+		<link REL="SHORTCUT ICON" HREF="images/secret2.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="styles/typelm.css" />
+	</head>
+
+	<body id="top">
+		<div class="wrapper">
+			<div id="header">
+				<span class="txt-rotate" data-period="2000" data-rotate='[ "校园"]'>
+     			</span>
+				<span class="type-cursor">|</span>
+			</div>
+		</div>
+		<!-- ####################################################################################################### -->
+		<div class="wrapper">
+			<div id="topbar">
+				<div class="fl_left_tooltip">
+					QQ: 1042148608 | Mail: lmjustlm@163.com
+					<div class="tooltip">
+
+						<ul>
+							<li class="fl_img"> <img src="images/zfbsk(1).png" /></li>
+							<li class="fl_img"><img src="images/QQsk(1).png" /></li>
+							<li class="fl_img"> <img src="images/wxsk(1).png" /></li>
+						</ul>
+						<a class="tl_center">
+							(。・`ω´・)因为网站建设需要硬件设施和资源，so(●'◡'●)ノ♥~~~ 扫一扫二维码，给我充电吧｡：ﾟ(｡ﾉω＼｡)ﾟ･｡
+						</a>
+
+					</div>
+				</div>
+				<div class="fl_right">
+					<form action="http://www.baidu.com/s?wd=" method="post">
+						<fieldset>
+							<legend>Search</legend>
+							<input type="text" value="" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;">
+							<input type="submit" name="go" id="go" value="搜索" />
+						</fieldset>
+					</form>
+				</div>
+				<br class="clear" />
+			</div>
+		</div>
+		<!-- ####################################################################################################### -->
+		<div class="wrapper">
+			<div id="topnav">
+				<ul class="nav">
+					<li>
+						<a href="index.html">主页</a>
+					</li>
+					<li>
+						<a href="course.html">IOT-物联网</a>
+					</li>
+
+					<li>
+						<a href="schoolLife.html">校园生活&raquo;</a>
+						<ul>
+							<li>
+								<a href="time.html">各种时间</a>
+							</li>
+							<li>
+								<a href="map.html">校园街景</a>
+							</li>
+							<li>
+								<a href=" http://dwz.cn/hashidahangpai"> 全景航拍</a>
+							</li>
+							<li>
+								<a href="schoolLife.html">新生指南</a>
+
+							</li>
+
+						</ul>
+					</li>
+					<li>
+						<a href="software.html">发现软件</a>
+					</li>
+					<li>
+						<a href="pic_show.html">校园风景</a>
+					</li>
+					<li class="last">
+						<a href="comments.html">留言</a>
+					</li>
+					<li class="last">
+						<a href="FAQ.html">FAQ</a>
+					</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- ####################################################################################################### -->
+		<div class="wrapper">
+			<div id="breadcrumb">
+				<ul class="center">
+					<li>
+						<a style="color: #FFFFFF; font-size: medium;">手机端需要点击屏幕放大再缩小才能滑动图片辣，bug，没精力处理啦，感觉被掏空..</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="container">
+				<!-- ############################# -->
+				<div id="gallery" class="whitebox">
+					<div id="wrapper">
+						<div id="pic_container">
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/后门.png" data-original="images/picShow/后门.png" margin:0 auto; /></div>
+								<strong>后门</strong>
+								<p>
+									从这个气势磅礴的后门门出去一直走是有着无数家饭店和无数个学院的学院路，右拐走100米就是杉杉奥特莱斯，大商场.--转自师大贴吧hdjdbr双鱼，以下均授权</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/家属区.jpg" data-original="images/picShow/家属区.jpg" margin:0 auto; /></div>
+								<strong>家属小区</strong>
+								<p>
+									往里走左侧是师大家属小区，靠近学校这一侧的门市房有书店、快递、剪发、拍照、擦鞋等等</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/小蓝.jpg" data-original="images/picShow/小蓝.jpg" margin:0 auto; /></div>
+								<strong>小蓝</strong>
+								<p>
+									江北校区这么大想去个地方走着去太累了有木有，坐校车是很好的选择也方便了我们的出行。但是小蓝的司机都很鸡贼，平时拉客一元一位，一到新生入学或者是学校运动会等大型活动就会变成两块。
+								</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/校医院.png" data-original="images/picShow/校医院.png" margin:0 auto; /></div>
+								<strong>校医院</strong>
+								<p>
+									校医院，是新生体检的地方，但是新生刚来应该先打疫苗，然后军训完事之后体检，应该是这样的。</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/行知楼.jpg" data-original="images/picShow/行知楼.jpg" margin:0 auto; /></div>
+								<strong>行知楼正面</strong>
+								<p>
+									接下来隆重推出的是师大的主楼—行知楼，在开学报道的那一天，学校里的每个学院都会在行知楼门前搭起帐篷，等着鲜肉们拿着录取通知书和个人档案来报道，这个楼的前后楼体都很大气，以后的微机课、交学费、开学典礼、学生会和团委办公室还有行政人员办公室都在这里，这是正面图
+								</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/行知楼后面.jpg" data-original="images/picShow/行知楼后面.jpg" margin:0 auto; /></div>
+								<strong>行知楼高端大气的后面</strong>
+
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/梦溪宾馆.jpg" data-original="images/picShow/梦溪宾馆.jpg" margin:0 auto; /></div>
+								<strong>梦溪宾馆</strong>
+								<p>
+								</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/科学会堂.jpg" data-original="images/picShow/科学会堂.jpg" margin:0 auto; /></div>
+								<strong>科学会堂</strong>
+								<p>
+									科学会堂是行知楼的一部分，在哈师大里，无论你是哪个学院哪个专业的，只要有大型的活动，不是在科学会堂就是在梦溪宾馆的二楼。</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/西语楼.jpg" data-original="images/picShow/西语楼.jpg" margin:0 auto; /></div>
+								<strong>西语楼</strong>
+								<p>
+									科学会堂的对面就是西语楼，西语楼里有哈师大最好的学院之一：西语学院和负责全校本科生公共英语课教学的公共英语教研部</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/崇师楼.jpg" data-original="images/picShow/崇师楼.jpg" margin:0 auto; /></div>
+								<strong>崇师楼</strong>
+								<p>
+									崇师楼，规模特别大，以前都管它叫新教学楼，去年才挂牌崇师楼，崇师楼里面是哈师大王牌学院—教师教育学院，据说这个学院是零表招生，也就是语数外政史地的行知班。还有一个是经济学院，具体情况不甚了解。</p>
+								<div class="meta">
+
+								</div>
+							</div>
+							<div class="grid">
+								<div class="imgholder">
+									<img class="lazy" src="images/picShow/侧面崇师楼.png" data-original="images/picShow/侧面崇师楼.png" margin:0 auto; /></div>
+								<strong>崇师楼</strong>
+								<p>
+									崇师楼是师大的门面，英语四六级、公务员考试、考研、注册会计师、司法考试等等国家级的考试都在崇师楼有考点，楼里有ABCD四个区！！在二楼通往别的区！！</p>
+								<div class="meta">
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="test" style="display: none;">
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/崇师楼内部.jpg" data-original="images/picShow/崇师楼内部.jpg" margin:0 auto; /></div>
+				<strong>崇师楼</strong>
+				<p>
+					崇师楼（环里面）后面是一个十分漂亮的小花园，晨读以及情侣们劈情操的圣地</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/马克思主义学院.jpg" data-original="images/picShow/马克思主义学院.jpg" margin:0 auto; /></div>
+				<strong>马克思主义学院</strong>
+				<p>
+					四楼，于是就意外的发现了哈师大最神秘的学院—马克思主义学院</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/一食堂侧面入口.jpg" data-original="images/picShow/一食堂侧面入口.jpg" margin:0 auto; /></div>
+				<strong>一食堂</strong>
+				<p>
+					一食堂侧面入口，进门左边是小杂货店</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/一食堂内.png" data-original="images/picShow/一食堂内.png" margin:0 auto; /></div>
+				<strong>一食堂一楼内</strong>
+				<p>
+					一食堂，位于三公寓旁边，人文楼后身，在师大较为里边的位置，这是一食堂内景</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/一食堂电梯.jpg" data-original="images/picShow/一食堂电梯.jpg" margin:0 auto; /></div>
+				<strong>一食堂电梯处</strong>
+				<p>
+					二楼也是餐厅，2，3楼可以找到清真的地方。</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/一食堂窗口.jpg" data-original="images/picShow/一食堂窗口.jpg" margin:0 auto; /></div>
+				<strong>一食堂一楼</strong>
+				<p>
+					酱香饼也是特色，午餐好吃一点的就是这张图片—郑记卤肉饭，我吃了有半学期一下子吃腻味了，但真的很好吃，盖浇饭10元一份，选一个肉菜，三个素菜。还有就是图里的鸡柳卷饼还行</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/二食堂.jpg" data-original="images/picShow/二食堂.jpg" margin:0 auto; /></div>
+				<strong>二食堂</strong>
+				<p>
+					师大食堂真心不错，能感觉到做饭人的那份用心，以及你去刷卡打饭的时候服务人员对学生的热情，让你感觉你不买他家的饭都是一种罪过</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/二食堂远眺.jpg" data-original="images/picShow/二食堂远眺.jpg" margin:0 auto; /></div>
+				<strong>二食堂</strong>
+				<p>
+					二食堂，好吃的感觉是二楼的通鸡饭🐔还有木桶饭，别的都一般般，三楼是清真食堂，做的菜很朴实，有一种家里的味道</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/浴室.jpg" data-original="images/picShow/浴室.jpg" margin:0 auto; /></div>
+				<strong>浴池</strong>
+				<p>
+					师大浴池只有一个，环境一般，据说人多的时候没办法两个人挤一个用都有可能（这个也是听别人传的，感觉有点扯淡了)毕竟男生稀少。233..</p>
+				<div class="meta">
+
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/梦溪湖1.jpg" data-original="images/picShow/梦溪湖1.jpg" margin:0 auto; /></div>
+				<strong>梦溪湖1</strong>
+				<p>
+					梦溪湖一共有三个，一个在梦溪宾馆门前，是弯月形的，一个在行知楼和图书馆之间，还有一个在二食堂门前，那块有个桥，有很多晨读社团都在那晨读，感觉应该不错，清晨神清气爽的站在桥上读英语，感觉应该棒棒哒</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/梦溪湖2.jpg" data-original="images/picShow/梦溪湖2.jpg" margin:0 auto; /></div>
+				<strong>梦溪湖2</strong>
+				<p>
+					梦溪湖一共有三个，一个在梦溪宾馆门前，是弯月形的，一个在行知楼和图书馆之间，还有一个在二食堂门前，那块有个桥，有很多晨读社团都在那晨读，感觉应该不错，清晨神清气爽的站在桥上读英语，感觉应该棒棒哒</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/图书馆正面照.jpg" data-original="images/picShow/图书馆正面照.jpg" margin:0 auto; /></div>
+				<strong>图书馆正面</strong>
+				<p>
+					图书馆是一个体现高校文化内涵和学生学习风气的地方，师大图书馆是黑龙江省文学古籍藏书量最大的，图书种类也仅次于哈工大和东北农大，是学生们学习的好去处</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/图书馆侧照.jpg" data-original="images/picShow/图书馆侧照.jpg" margin:0 auto; /></div>
+				<strong>图书馆侧面</strong>
+				<p>
+					图书馆侧面，从理工二和理工一中间过来的角度。</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/图书馆刷卡口.jpg" data-original="images/picShow图书馆刷卡口.jpg" margin:0 auto; /></div>
+				<strong>图书馆刷卡口</strong>
+				<p>
+					带上你的一卡通，在贴卡处贴，不过有时候不好用，可以换一个刷。一卡通是图书馆进去，和借书，还书必备的东西。</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/图书馆三楼.jpg" data-original="images/picShow/图书馆三楼.jpg" margin:0 auto; /></div>
+				<strong>图书馆三楼</strong>
+				<p>
+					图书馆算上负一层一共六层，进去是用饭卡刷卡才能进，地下一层是自习室，一般考研的学姐学长在地下一层长期安营扎寨，二楼也有自习室，还有电子阅览室</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/三楼自习室.jpg" data-original="images/picShow/三楼自习室.jpg" margin:0 auto; /></div>
+				<strong>图书馆三楼自习室</strong>
+				<p>
+					感觉三楼的大厅真是高端大气上档次，再看看自习室的内景，全是低头学习的同学们，随便一看学什么的都有，但是感觉看得最多的还是英语、汉语、数学的人</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/图书馆仰角.jpg" data-original="images/picShow/图书馆仰角.jpg" margin:0 auto; /></div>
+				<strong>图书馆三楼</strong>
+				<p>
+					图书馆人多，三楼以上采光也好，所以一直都很温暖，一楼两侧比较凉快，适合背东西</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/社科楼.jpg" data-original="images/picShow/社科楼.jpg" margin:0 auto; /></div>
+				<strong>社科楼</strong>
+				<p>
+					师大规模比较大的楼除了主楼行知楼、崇师楼以外就是社科楼了，据说以前是师大呼兰校区的主楼。社科就是社会科学，正门是斯拉夫语学院、东语学院，西侧门是教育科学学院</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/斯拉夫语学院.jpg" data-original="images/picShow/斯拉夫语学院.jpg" margin:0 auto; /></div>
+				<strong>社科楼斯拉夫语</strong>
+				<p>
+					发现了哈师大另一个神秘的学院—斯拉夫语学院</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/社科楼上远眺.png" data-original="images/picShow/社科楼上远眺.png" margin:0 auto; /></div>
+				<strong>从社科楼眺望</strong>
+				<p>
+					感觉从社科楼高层上俯瞰下面应该会很壮观，所以就在社科楼坐电梯到八楼拍了张照片--引自师大贴吧hdjdbr双鱼</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/社科楼远眺.png" data-original="images/picShow/社科楼远眺.png" margin:0 auto; /></div>
+				<strong>社科楼远眺</strong>
+				<p>
+				</p>
+				<div class="meta">
+
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/人文楼.jpg" data-original="images/picShow/人文楼.jpg" margin:0 auto; /></div>
+				<strong>人文楼</strong>
+				<p>
+					社科楼的旁边就是人文楼，人文楼里有两个学院，一个是历史文化学院，一个是哈师大的金字招牌——文学院。先说文学院，哈师大建立最早的院系，拥有三个博士点，一个博士后流动站（师大仅有两个博士后流动站，另一个是马克思主义），三个本科专业，基本上都是一表招生，是哈师大最有特色和历史的学院。</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/理工楼.jpg" data-original="images/picShow/理工楼.jpg" margin:0 auto; /></div>
+				<strong>理工楼</strong>
+				<p>
+					理工楼一共有三个楼：理工一（站主学院啦(^.^)）、理工二、理工三。由于这三个楼除了名不一样意外长得简直一模一样，在加上楼主比较懒，所以就照了一张</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/研究生院.jpg" data-original="images/picShow/研究生院.jpg" margin:0 auto; /></div>
+				<strong>研究生院</strong>
+				<p>
+					专门有个楼叫研究生院楼，以前叫综合楼</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/体育楼.jpg" data-original="images/picShow/体育楼.jpg" margin:0 auto; /></div>
+				<strong>体育楼</strong>
+				<p>
+					体育生上课就是在这楼。</p>
+				<div class="meta">
+
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/大体育场.jpg" data-original="images/picShow/大体育场.jpg" margin:0 auto; /></div>
+				<strong>体育场</strong>
+				<p>
+					运动使人快乐和有活力，接下来是体育场，各种阅兵仪式、运动会都会在体育场举行，规模不小，是塑胶跑道，晨跑的时候可以选择来这进行晨跑</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/体育馆.jpg" data-original="images/picShow/体育馆.jpg" margin:0 auto; /></div>
+				<strong>体育馆</strong>
+				<p>
+					体育馆里有健身房，办个卡大概存一百，器械还算全面；还有游泳馆，是最近刚开的；室内篮球场和网球场非常豪华，体育生上课应该在这。还有就是体育生的教学楼—体育楼，在社科楼的右侧</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/大篮球场.jpg" data-original="images/picShow/大篮球场.jpg" margin:0 auto; /></div>
+				<strong>大篮排网球场</strong>
+				<p>
+					大球场里边有篮球场和网球场，在陶行知雕像的右面，大一和大二上公共选修体育课都应该在这里上，说到体育选修，请大家选的时候一定要慎重，有些老师认真负责并且考试给的成绩很高，想过也很容易；但是有的老师平时把学生甩一边今天不上明天不上的到最后考试很严</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/小篮球场.jpg" data-original="images/picShow/小篮球场.jpg" margin:0 auto; /></div>
+				<strong>小篮球场</strong>
+				<p>
+					在二食堂、五公寓那边，经常取快递也是在这里了</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/考研路.png" data-original="images/picShow/考研路.png" margin:0 auto; /></div>
+				<strong>春秋西路</strong>
+				<p>
+					师大军训时间上届我记着是19天，不算太累，但是如果太阳大的话就会很晒🌞，军训的地点在理工一二三号楼的后面那条路上，叫春秋西路，这条路也是大家夜跑的绝佳地点</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/4人寝室.png" data-original="images/picShow/4人寝室.png" margin:0 auto; /></div>
+				<strong>寝室</strong>
+				<p>
+					这就是贴吧爱干净的男楼主的4人寝室啦，</p>
+				<div class="meta">
+
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/陶行知.jpg" data-original="images/picShow/陶行知.jpg" margin:0 auto; /></div>
+				<strong>雕像</strong>
+				<p>
+					社科楼门前有一个人物雕像，是教育家陶行知，行知楼也是用他命名的，学校的宗旨也是知行合一</p>
+				<div class="meta">
+
+				</div>
+			</div>
+			<div class="grid">
+				<div class="imgholder">
+					<img class="lazy" src="images/picShow/正门.jpg" data-original="images/picShow/正门.jpg" margin:0 auto; /></div>
+				<strong>正门</strong>
+				<p>
+					雕像往前走就到了师大的另一个门—前门，要想回公寓的话一般都走前门，前门前面的路叫师大路，旁边有一个黑龙江外国语学院</p>
+				<div class="meta">
+
+				</div>
+			</div>
+		</div>
+		<a href="#" onclick="gotoTop();return false;" class="totop"></a>
+		<script type="text/javascript" src="scripts/picwater.js"></script>
+		<script type="text/javascript" src="scripts/superfish.js"></script>
+		<script type="text/javascript">
+			jQuery(function() {
+				jQuery('ul.nav').superfish();
+			});
+		</script>
+		<script type="text/javascript" src="scripts/jquery.lazyload.min.js"></script>
+		<!--  ==============  -->
+		<!--  = #lazy load =  -->
+		<!--  ==============  -->
+		<script type="text/javascript" charset="utf-8">
+			$(function() {
+				$("img.lazy").lazyload({
+					effect: "fadeIn"
+				});
+			});
+		</script>
+		<a href="#" onclick="gotoTop();return false;" class="totop"></a>
+		<script type="text/javascript" src="scripts/typelm.js"></script>
+	</body>
+
 </html>

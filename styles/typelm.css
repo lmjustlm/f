@@ -9,7 +9,7 @@ span {
 }
 .type-cursor {
   font-weight: 400;
-  font-size: 5.5em;
+  font-size: 6.5em;
   color: blue;
   -webkit-animation: 1s blink step-end infinite;
   -moz-animation: 1s blink step-end infinite;

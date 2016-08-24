@@ -1,0 +1,44 @@
+.shake {
+	display:block;
+	position:relative;
+	display:inline-block
+}
+@-webkit-keyframes spaceboots {/*Safari and Chrome*/
+	0% { -webkit-transform: translate(2px, 1px) ; }
+	10% { -webkit-transform: translate(-1px, -2px); }
+	20% { -webkit-transform: translate(-3px, 0px) ; }
+	30% { -webkit-transform: translate(0px, 2px) ; }
+	40% { -webkit-transform: translate(1px, -1px); }
+	50% { -webkit-transform: translate(-1px, 2px); }
+	60% { -webkit-transform: translate(-3px, 1px); }
+	70% { -webkit-transform: translate(2px, 1px) ; }
+	80% { -webkit-transform: translate(-1px, -1px); }
+	90% { -webkit-transform: translate(2px, 2px) ; }
+	100% { -webkit-transform: translate(1px, -2px); }
+}
+@keyframes spaceboots {/*兼容除去 Safari and Chrome之外*/
+	0% { transform: translate(2px, 1px) ; }
+	10% { transform: translate(-1px, -2px); }
+	20% { transform: translate(-3px, 0px) ; }
+	30% { transform: translate(0px, 2px) ; }
+	40% { transform: translate(1px, -1px); }
+	50% { transform: translate(-1px, 2px); }
+	60% { transform: translate(-3px, 1px); }
+	70% { transform: translate(2px, 1px) ; }
+	80% { transform: translate(-1px, -1px); }
+	90% { transform: translate(2px, 2px) ; }
+	100% { transform: translate(1px, -2px) ; }
+}
+.shake:hover,
+.shake:focus {
+	animation-name: spaceboots;
+	animation-duration: 0.8s;
+	transform-origin:50% 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
